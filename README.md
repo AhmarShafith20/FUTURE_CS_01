@@ -6,11 +6,13 @@ Internship: Future Interns — Cyber Security Track
 Intern: Ahmar Shafith Baijur Ahamed  
 Date: May 23 2026  
 
+---
 
 # Objective
 
 Conduct a passive vulnerability assessment on a legal, intentionally vulnerable demo web application using industry-standard security tools. Identify, classify, and document security vulnerabilities with clear remediation steps.
 
+---
 
 # Target
 
@@ -24,7 +26,7 @@ Conduct a passive vulnerability assessment on a legal, intentionally vulnerable 
 
 ---
 
-## 🔧 Tools Used
+# Tools Used
 
 | Tool | Purpose |
 |------|---------|
@@ -34,7 +36,7 @@ Conduct a passive vulnerability assessment on a legal, intentionally vulnerable 
 
 ---
 
-## 📊 Findings Summary
+# Findings Summary
 
 | # | Vulnerability | Risk | CWE |
 |---|--------------|------|-----|
@@ -49,7 +51,7 @@ Conduct a passive vulnerability assessment on a legal, intentionally vulnerable 
 
 ---
 
-## 📁 Repository Structure
+# Repository Structure
 FUTURE_CS_01/
 │
 ├── README.md
@@ -65,11 +67,12 @@ FUTURE_CS_01/
 ├── zap_vulnerable_js_library.png
 ├── zap_banner_info_leak.png
 ├── zap_server_version_disclosure.png
-└── zap_xcontent_type_options.png
+├── zap_xcontent_type_options.png
+└── zap_mordern_web_application.png
 
 ---
 
-## 🔍 Nmap Scan Results
+# Nmap Scan Results
 
 **Basic Scan:** `nmap zero.webappsecurity.com`
 PORT      STATE  SERVICE
@@ -85,13 +88,13 @@ PORT      STATE  SERVICE   VERSION
 
 ---
 
-## ⚠️ Legal Disclaimer
+# Legal Disclaimer
 
 This assessment was conducted solely for **educational purposes** as part of the Future Interns Cyber Security Internship (Task 1). The target is a **legal, intentionally vulnerable demo application**. No vulnerabilities were exploited. No real user data was accessed or modified. All scanning was passive and ethical.
 
 ---
 
-## 📜 Deliverables
+# Deliverables
 
 - ✅ Vulnerability Assessment Report (PDF) — in `/report/`
 - ✅ Nmap Scan Screenshots — in `/screenshots/`
@@ -99,6 +102,6 @@ This assessment was conducted solely for **educational purposes** as part of the
 
 ---
 
-## 🏷️ Tags
+# Tags
 
 `cyber-security` `vulnerability-assessment` `nmap` `owasp-zap` `future-interns` `FUTURE_CS_01`
