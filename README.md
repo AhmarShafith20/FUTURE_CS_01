@@ -51,27 +51,6 @@ Conduct a passive vulnerability assessment on a legal, intentionally vulnerable 
 
 ---
 
-# Repository Structure
-FUTURE_CS_01/
-│
-├── README.md
-├── report/
-│   └── Vulnerability_Assessment_Report_FUTURE_CS_01.pdf
-└── screenshots/
-├── nmap_basic_scan.png
-├── nmap_version_scan.png
-├── zap_alerts_overview.png
-├── zap_csp_header.png
-├── zap_cors_misconfiguration.png
-├── zap_clickjacking_header.png
-├── zap_vulnerable_js_library.png
-├── zap_banner_info_leak.png
-├── zap_server_version_disclosure.png
-├── zap_xcontent_type_options.png
-└── zap_mordern_web_application.png
-
----
-
 # Nmap Scan Results
 
 **Basic Scan:** `nmap zero.webappsecurity.com`
